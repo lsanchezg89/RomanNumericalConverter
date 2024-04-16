@@ -1,0 +1,58 @@
+<!--Indicate document type -->
+<!DOCTYPE html>
+
+<!--Iniciate html doc, indicate doc language-->
+<html lang="en">
+
+<!--Begin head: Include charset, mobile specifications, title, link to CSS file-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="./styles.css"
+    />
+      <title>Palindrome Checker</title>
+  </head>
+  <!--End head-->
+
+  <!--Begin body: Include body of the page, link to JS file-->
+  <body>
+    <main>
+      <h1>Welcome to Roman Numerical Converter!</h1>
+      <p>
+        Roman numerals are a numeral system originated in ancient Rome, that uses seven symbols (I, V, X, L, C, D and M) to represent Arabic numerals bellow 4000.
+      </p>
+      <p id="instructions">
+        Choose a number between 1 and 3999 and use the converter to see its representation in Roman numerals.
+      </p>
+
+      <!--Converter input-->
+      <div id="input" class="container">
+        <label for="number">
+          Enter a number:
+        </label>
+        <input
+          class="input"
+          id="number"
+          type="number"
+        />
+        <button
+          class="btn"
+          id="convert-btn"
+        >
+        Convert
+        </button>
+      </div>
+
+      <!--Converter output-->
+      <div id='output'></div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+  <!--End body-->
+
+</html>

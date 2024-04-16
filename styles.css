@@ -1,0 +1,61 @@
+:root {
+  --charcoal: #2C4251;
+  --powder-blue: #93B5C6;
+  --eggplant: #5F4454;
+}
+
+body {
+  background-color: var(--powder-blue);
+  margin: 2em;
+  padding: 1em;
+  font-family: "Serif";
+  color: var(--charcoal);
+  font-size: 18px;
+  text-align: center;
+}
+
+h1 {
+  color: var(--eggplant);
+  text-align: center;
+  margin-bottom: 2em;
+  font-size: 40px;
+}
+
+p, instructions {
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+div, input {
+  display: block;
+}
+
+label {
+  font-weight: bold;
+  color: var(--eggplant);
+}
+
+input {
+  margin: 1em auto;
+  background-color: var(--powder-blue);
+  font-size: 18px;
+  text-align: center;
+  color: var(--charcoal);
+  font-weight: bold;
+  border: 2px solid var(--charcoal);
+}
+
+button, convert-btn {
+  background-color: var(--powder-blue);
+  color: var(--eggplant);
+  font-weight: bold;
+  font-size: 18px;
+  border: 2px solid var(--charcoal);
+}
+
+#output {
+  color: var(--charcoal);
+  margin-top: 1em;
+  font-weight: bold;
+  font-size: 25px;
+}
